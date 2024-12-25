@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/ggg/simple-slots",
+        "destination": "https://ruzanov-v-soltokio-5fe2.twc1.net/ggg/simple-slots"
+      }
+    ]
+  }

@@ -1,0 +1,13 @@
+{
+  "name": "@suka-game/simple-slots-shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}

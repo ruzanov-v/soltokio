@@ -1,0 +1,38 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #f4f4f4;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --ui-color-white-hsl: 0, 0%, 96%;
+    --ui-color-blue-hsl: 197, 82%, 63%;
+    --ui-color-red-hsl: 350, 92%, 61%;
+    --ui-color-gray-hsl: 35, 20%, 70%;
+  
+    font-family: "Yanone Kaffeesatz", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #f4f4f4;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f4f4f4;
+    }
+  }
+  

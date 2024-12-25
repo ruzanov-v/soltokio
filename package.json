@@ -1,0 +1,14 @@
+{
+  "name": "soltokio.fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ser": "cd ./games/simple-slots-server && npm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

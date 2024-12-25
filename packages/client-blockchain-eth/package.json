@@ -1,0 +1,23 @@
+{
+  "name": "client-blockchain-eth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/vue-query": "^5.62.9",
+    "@wagmi/chains": "^1.8.0",
+    "@wagmi/connectors": "^5.7.3",
+    "@wagmi/core": "^2.16.3",
+    "@wagmi/vue": "^0.1.6",
+    "add": "^2.0.6",
+    "pnpm": "^9.15.2",
+    "viem": "~2.21.60",
+    "vue": "^3.5.13"
+  }
+}

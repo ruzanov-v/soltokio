@@ -1,0 +1,7 @@
+packages:
+  - 'frontend'
+  - 'backend/*'
+  - 'games/*'
+  - 'packages/*'
+  # exclude packages that are inside test directories
+  - '!**/test/**'

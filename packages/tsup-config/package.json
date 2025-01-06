@@ -1,0 +1,22 @@
+{
+  "name": "@sukacripta/tsup-config",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/entrypoint.js",
+  "module": "./dist/entrypoint.js",
+  "types": "./dist/entrypoint.d.ts",
+  "exports": {
+    "types": "./dist/entrypoint.d.ts",
+    "import": "./dist/entrypoint.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^8.3.5"
+  }
+}

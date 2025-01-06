@@ -1,0 +1,27 @@
+{
+  "name": "@suka-game/simple-slots-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx ./src/entrypoint.ts",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@sukacripta/tsup-config": "workspace:^",
+    "tsup": "^8.3.5",
+    "tsx": "4.19.2",
+    "typescript": "~5.6.2"
+  },
+  "dependencies": {
+    "@suka-back/balance-service-interface": "workspace:^",
+    "@suka-back/user-auth-service-interfaces": "workspace:^",
+    "@suka-back/user-auth-service-middleware": "workspace:^",
+    "@suka-game/simple-slots-shared": "workspace:^",
+    "@sukacripta/math-bigint": "workspace:^",
+    "@sukacripta/server-bridge": "workspace:^",
+    "delay": "^6.0.0",
+    "socket.io": "^4.8.1",
+    "zod": "^3.24.1"
+  }
+}

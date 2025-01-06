@@ -1,0 +1,15 @@
+{
+  "name": "soltokio.fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "bash cli/build.sh",
+    "dev": "bash cli/dev.sh",
+    "ser": "cd ./games/simple-slots-server && npm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

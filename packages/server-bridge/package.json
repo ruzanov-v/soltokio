@@ -1,0 +1,30 @@
+{
+  "name": "@sukacripta/server-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/entrypoint.js",
+  "module": "./dist/entrypoint.js",
+  "types": "./dist/entrypoint.d.ts",
+  "exports": {
+    "types": "./dist/entrypoint.d.ts",
+    "import": "./dist/entrypoint.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sukacripta/tsup-config": "workspace:^",
+    "amqplib": "^0.10.5",
+    "mitt": "^3.0.1",
+    "nanoid": "^5.0.9"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.6",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,1 @@
+export {default as UiCoinButton} from './UiCoinButton.vue'

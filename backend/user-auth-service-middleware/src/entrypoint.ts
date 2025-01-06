@@ -1,0 +1,1 @@
+export {getSocketIoUserAuthMiddleware} from './getSocketIoUserAuthMiddleware'

@@ -1,0 +1,1 @@
+export {VueComponent as SimpleSlotsDocRu} from './SimpleSlotsDocRu.md'

@@ -1,0 +1,17 @@
+{
+    "rewrites": [
+        {
+            "source": "/ggg/user-state/",
+            "destination": "http://94.228.113.119:3001/ggg/user-state/"
+        },
+        {
+            "source": "/ggg/simple-slots/",
+            "destination": "http://94.228.113.119:3000/ggg/simple-slots/"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
+}
+

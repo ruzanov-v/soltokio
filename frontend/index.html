@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue + TS</title>
+  </head>
+  <body>
+    <style>
+      @keyframes app-ready {
+        from {opacity: 1;}
+        to {opacity: 0;}
+      }
+
+      #app-splash {
+        z-index: 99999999;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #515895;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        overflow: hidden;    
+      }
+
+      .app-splash-bg {
+        --size: max(150vh, 150vw);
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: var(--size);
+        min-width: var(--size);
+        animation: app-splash-bg-spin 12s linear infinite;
+      }
+
+      @keyframes app-splash-bg-spin {
+        0% { transform: translate(-50%, -50%) rotate(0deg); }
+        100% { transform: translate(-50%, -50%) rotate(360deg); }
+      }
+    </style>
+    <div id="app-splash">
+      <svg class="app-splash-bg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" fill="none">
+          <g clip-path="url(#a)">
+            <path fill="url(#c)" d="m246 261-303 92-16-72 316-23-324-150 46-86 278 229L13-40l75-30 162 319L143-77l76-7 36 329 16-329 60 7-69 322L384-63l46 12-163 300L484-26l50 35-263 245L579 65l30 113-334 82 334 42-67 183-270-222 178 324-84 18-97-339 25 353-53-7 21-343-95 343-34-12 124-331L88 550l-23-16 185-268L-5 459l-19-30 270-168Z"/>
+          </g>
+          <defs>
+            <radialGradient id="c" cx="0" cy="0" r="0.7" gradientTransform="matrix(-262.4985 252.50208 -247.83234 -257.64389 264 258)" gradientUnits="userSpaceOnUse">
+              <stop stop-color="rgba(255,255,255,.3)"/>
+              <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+            </radialGradient>
+            <clipPath id="a">
+              <path fill="#fff" d="M0 0h512v512H0z"/>
+            </clipPath>
+          </defs>
+        </svg>        
+      </svg>
+      
+      ТУТ ЛОГОТИП
+    </div>
+    <div id="app"></div>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

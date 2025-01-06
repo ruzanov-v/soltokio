@@ -1,0 +1,22 @@
+{
+  "name": "@sukacripta/math-bigint",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/entrypoint.js",
+  "module": "./dist/entrypoint.js",
+  "types": "./dist/entrypoint.d.ts",
+  "exports": {
+    "types": "./dist/entrypoint.d.ts",
+    "import": "./dist/entrypoint.js",
+    "require": "./dist/entrypoint.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@sukacripta/tsup-config": "workspace:^",
+    "tsup": "^8.3.5",
+    "typescript": "~5.7.2"
+  }
+}
